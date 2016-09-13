@@ -1,0 +1,88 @@
+Dependencies for Project 'LegendofZelda', Target 'LegendofZelda': (DO NOT MODIFY !)
+F (.\startup.s)(0x57191E47)(--cpu Cortex-M4 --pd "__RTX SETA 1" -g --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary--list .\startup.lst --xref -o .\startup.o --depend .\startup.d)
+F (.\random.s)(0x57191E46)(--cpu Cortex-M4 --pd "__RTX SETA 1" -g --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary--list .\random.lst --xref -o .\random.o --depend .\random.d)
+F (.\DAC.c)(0x572A92CB)(-c --cpu Cortex-M4 -D__RTX -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\.. --C99-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-Drvmdk -DPART_LM4F120H5QR-o .\dac.o --omf_browse .\dac.crf --depend .\dac.d)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C88A34)
+I (tm4c123gh6pm.h)(0x57191E46)
+F (.\Timer0.c)(0x57191E46)(-c --cpu Cortex-M4 -D__RTX -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\.. --C99-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-Drvmdk -DPART_LM4F120H5QR-o .\timer0.o --omf_browse .\timer0.crf --depend .\timer0.d)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C88A34)
+I (tm4c123gh6pm.h)(0x57191E46)
+F (.\Timer1.c)(0x57191E46)(-c --cpu Cortex-M4 -D__RTX -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\.. --C99-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-Drvmdk -DPART_LM4F120H5QR-o .\timer1.o --omf_browse .\timer1.crf --depend .\timer1.d)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C88A34)
+I (tm4c123gh6pm.h)(0x57191E46)
+F (.\Sound.c)(0x572AE647)(-c --cpu Cortex-M4 -D__RTX -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\.. --C99-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-Drvmdk -DPART_LM4F120H5QR-o .\sound.o --omf_browse .\sound.crf --depend .\sound.d)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C88A34)
+I (Sound.h)(0x572AE647)
+I (DAC.h)(0x5727FD8F)
+I (tm4c123gh6pm.h)(0x57191E46)
+I (Timer1.h)(0x57191E46)
+F (.\LCD.s)(0x57197BA0)(--cpu Cortex-M4 --pd "__RTX SETA 1" -g --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary--list .\lcd.lst --xref -o .\lcd.o --depend .\lcd.d)
+F (.\Print.s)(0x57197BB0)(--cpu Cortex-M4 --pd "__RTX SETA 1" -g --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary--list .\print.lst --xref -o .\print.o --depend .\print.d)
+F (.\ST7735.c)(0x57295F5E)(-c --cpu Cortex-M4 -D__RTX -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\.. --C99-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-Drvmdk -DPART_LM4F120H5QR-o .\st7735.o --omf_browse .\st7735.crf --depend .\st7735.d)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C88A34)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C88A34)
+I (ST7735.h)(0x57259A55)
+I (tm4c123gh6pm.h)(0x57191E46)
+I (Map.h)(0x5726E433)
+F (.\LegendofZelda.c)(0x572CAF02)(-c --cpu Cortex-M4 -D__RTX -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\.. --C99-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-Drvmdk -DPART_LM4F120H5QR-o .\legendofzelda.o --omf_browse .\legendofzelda.crf --depend .\legendofzelda.d)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C88A34)
+I (tm4c123gh6pm.h)(0x57191E46)
+I (ST7735.h)(0x57259A55)
+I (Random.h)(0x57191E47)
+I (TExaS.h)(0x57191E47)
+I (ADC.h)(0x571F169E)
+I (Map.h)(0x5726E433)
+I (SysTickInts.h)(0x53E92FAC)
+I (Sprites.h)(0x572B099D)
+I (Grid.h)(0x572B318B)
+I (Items.h)(0x572B90B9)
+I (DAC.h)(0x5727FD8F)
+I (Sound.h)(0x572AE647)
+I (Sentence.h)(0x572A4A3D)
+F (.\Tiles.c)(0x572B833B)(-c --cpu Cortex-M4 -D__RTX -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\.. --C99-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-Drvmdk -DPART_LM4F120H5QR-o .\tiles.o --omf_browse .\tiles.crf --depend .\tiles.d)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C88A34)
+I (Tiles.h)(0x57199CBA)
+I (tm4c123gh6pm.h)(0x57191E46)
+F (.\Map.c)(0x572C7461)(-c --cpu Cortex-M4 -D__RTX -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\.. --C99-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-Drvmdk -DPART_LM4F120H5QR-o .\map.o --omf_browse .\map.crf --depend .\map.d)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C88A34)
+I (Map.h)(0x5726E433)
+I (Tiles.h)(0x57199CBA)
+I (tm4c123gh6pm.h)(0x57191E46)
+I (ST7735.h)(0x57259A55)
+I (Grid.h)(0x572B318B)
+F (.\SysTickInts.c)(0x56ECA55C)(-c --cpu Cortex-M4 -D__RTX -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\.. --C99-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-Drvmdk -DPART_LM4F120H5QR-o .\systickints.o --omf_browse .\systickints.crf --depend .\systickints.d)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C88A34)
+I (tm4c123gh6pm.h)(0x57191E46)
+I (SysTickInts.h)(0x53E92FAC)
+F (.\Grid.c)(0x572CB354)(-c --cpu Cortex-M4 -D__RTX -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\.. --C99-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-Drvmdk -DPART_LM4F120H5QR-o .\grid.o --omf_browse .\grid.crf --depend .\grid.d)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C88A34)
+I (Grid.h)(0x572B318B)
+I (Sprites.h)(0x572B099D)
+I (tm4c123gh6pm.h)(0x57191E46)
+I (ST7735.h)(0x57259A55)
+F (.\Sprites.c)(0x572C9104)(-c --cpu Cortex-M4 -D__RTX -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\.. --C99-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-Drvmdk -DPART_LM4F120H5QR-o .\sprites.o --omf_browse .\sprites.crf --depend .\sprites.d)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C88A34)
+I (Sprites.h)(0x572B099D)
+I (tm4c123gh6pm.h)(0x57191E46)
+I (ST7735.h)(0x57259A55)
+I (Map.h)(0x5726E433)
+I (Grid.h)(0x572B318B)
+I (Timer0.h)(0x57191E46)
+F (.\ADC.c)(0x571F165F)(-c --cpu Cortex-M4 -D__RTX -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\.. --C99-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-Drvmdk -DPART_LM4F120H5QR-o .\adc.o --omf_browse .\adc.crf --depend .\adc.d)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C88A34)
+I (tm4c123gh6pm.h)(0x57191E46)
+I (ADC.h)(0x571F169E)
+F (.\Items.c)(0x572C99C8)(-c --cpu Cortex-M4 -D__RTX -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\.. --C99-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-Drvmdk -DPART_LM4F120H5QR-o .\items.o --omf_browse .\items.crf --depend .\items.d)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C88A34)
+I (Items.h)(0x572B90B9)
+I (Sprites.h)(0x572B099D)
+I (Grid.h)(0x572B318B)
+I (ST7735.h)(0x57259A55)
+I (tm4c123gh6pm.h)(0x57191E46)
+I (Sentence.h)(0x572A4A3D)
+F (.\Sentence.c)(0x572A4D83)(-c --cpu Cortex-M4 -D__RTX -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\.. --C99-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-Drvmdk -DPART_LM4F120H5QR-o .\sentence.o --omf_browse .\sentence.crf --depend .\sentence.d)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C88A34)
+I (tm4c123gh6pm.h)(0x57191E46)
+I (Sentence.h)(0x572A4A3D)
+I (ST7735.h)(0x57259A55)
+F (.\texas.o)(0x57191E46)()
