@@ -23,7 +23,7 @@
  */
 #include <stdint.h>
 
-#include "tm4c123gh6pm.h"
+#include "../inc/tm4c123gh6pm.h"
 
 void (*PeriodicTask0)(void);   // user function
 

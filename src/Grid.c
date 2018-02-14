@@ -1,9 +1,9 @@
 
 #include <stdint.h>
-#include "Grid.h"
-#include "Sprites.h"
-#include "tm4c123gh6pm.h"
-#include "ST7735.h"
+#include "../inc/Grid.h"
+#include "../inc/Sprites.h"
+#include "../inc/tm4c123gh6pm.h"
+#include "../inc/ST7735.h"
 
 uint8_t MapGrid [10][8];
 uint8_t LinkGrid [10][8];

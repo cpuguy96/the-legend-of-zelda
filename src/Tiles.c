@@ -1,8 +1,8 @@
 
 
 #include <stdint.h>
-#include "Tiles.h"
-#include "tm4c123gh6pm.h"
+#include "../inc/Tiles.h"
+#include "../inc/tm4c123gh6pm.h"
 
 
 const unsigned short overBLBush[] = { // 0

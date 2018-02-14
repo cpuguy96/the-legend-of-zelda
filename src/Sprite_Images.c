@@ -1,7 +1,7 @@
 #include <stdint.h>
-#include "tm4c123gh6pm.h"
-#include "ST7735.h"
-#include "Sprite_Images.h"
+#include "../inc/tm4c123gh6pm.h"
+#include "../inc/ST7735.h"
+#include "../inc/Sprite_Images.h"
 
 const unsigned short LinkN[] = {
  0xAEBF, 0xAEBF, 0xAEBF, 0xAEBF, 0xAEBF, 0xAEBF, 0xAEBF, 0xAEBF, 0xAEBF, 0xAEBF, 0xAEBF, 0xAEBF, 0xAEBF, 0xAEBF, 0xAEBF, 0xAEBF,

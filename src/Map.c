@@ -1,11 +1,11 @@
 
 
 #include <stdint.h>
-#include "Map.h"
-#include "Tiles.h"
-#include "tm4c123gh6pm.h"
-#include "ST7735.h"
-#include "Grid.h"
+#include "../inc/Map.h"
+#include "../inc/Tiles.h"
+#include "../inc/tm4c123gh6pm.h"
+#include "../inc/ST7735.h"
+#include "../inc/Grid.h"
 
 /* 
 BLBush 		0

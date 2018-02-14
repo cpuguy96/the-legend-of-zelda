@@ -1,12 +1,12 @@
 
 #include <stdint.h>
-#include "Sprites.h"
-#include "tm4c123gh6pm.h"
-#include "ST7735.h"
-#include "Map.h"
-#include "Grid.h"
-#include "Timer0.h"
-#include "Sprite_Images.h"
+#include "../inc/Sprites.h"
+#include "../inc/tm4c123gh6pm.h"
+#include "../inc/ST7735.h"
+#include "../inc/Map.h"
+#include "../inc/Grid.h"
+#include "../inc/Timer0.h"
+#include "../inc/Sprite_Images.h"
 
 struct Sprite_t {
 	const unsigned short * currentCharacter;

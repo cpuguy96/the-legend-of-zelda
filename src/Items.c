@@ -1,12 +1,12 @@
 
 #include <stdint.h>
-#include "Items.h"
-#include "Sprites.h"
-#include "Grid.h"
-#include "ST7735.h"
-#include "tm4c123gh6pm.h"
-#include "Sentence.h"
-#include "Sprite_Images.h"
+#include "../inc/Items.h"
+#include "../inc/Sprites.h"
+#include "../inc/Grid.h"
+#include "../inc/ST7735.h"
+#include "../inc/tm4c123gh6pm.h"
+#include "../inc/Sentence.h"
+#include "../inc/Sprite_Images.h"
 
 struct Item_t{
 	uint8_t width;

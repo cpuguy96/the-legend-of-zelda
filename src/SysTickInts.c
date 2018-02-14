@@ -23,8 +23,8 @@
  */
 
 #include <stdint.h>
-#include "tm4c123gh6pm.h"
-#include "SysTickInts.h"
+#include "../inc/tm4c123gh6pm.h"
+#include "../inc/SysTickInts.h"
 
 #define NVIC_ST_CTRL_CLK_SRC    0x00000004  // Clock Source
 #define NVIC_ST_CTRL_INTEN      0x00000002  // Interrupt enable

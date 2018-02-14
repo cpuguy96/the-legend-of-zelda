@@ -1,7 +1,7 @@
 // use PB5-0 to implement DAC
 
 #include <stdint.h>
-#include "tm4c123gh6pm.h"
+#include "../inc/tm4c123gh6pm.h"
 // Code files contain the actual implemenation for public functions
 // this file also contains an private functions and private data
 

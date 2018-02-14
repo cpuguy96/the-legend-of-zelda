@@ -1,9 +1,9 @@
 
 #include <stdint.h>
-#include "tm4c123gh6pm.h"
-#include "Sentence.h"
-#include "ST7735.h"
-#include "Sentence_Images.h"
+#include "../inc/tm4c123gh6pm.h"
+#include "../inc/Sentence.h"
+#include "../inc/ST7735.h"
+#include "../inc/Sentence_Images.h"
 
 
 
