@@ -1,1 +1,0 @@
-char checkMove(char moveDirection);
