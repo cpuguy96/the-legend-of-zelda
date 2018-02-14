@@ -1,0 +1,11 @@
+# Globally ignore these files.
+*.DS_Store
+*.o
+*.d
+*.swp
+
+src/*
+
+!src*/*.c
+!src*/*.s
+!lab*/*.h
