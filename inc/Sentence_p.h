@@ -1,6 +1,6 @@
 
-#ifndef __Sentence_h
-#define __Sentence_h
+#ifndef __Sentence_p_h
+#define __Sentence_p_h
 
 #define ASCII 0x41 //start of capital letters
 
@@ -227,7 +227,5 @@ N, O, P, Q, R, S, T, U, V, W, Xx, Y, Z
 const unsigned short * Numbers[10] = {
 Zero, One, Two, Three, Four, Five, Six, Seven, Eight, Nine
 };
-
-
 
 #endif
