@@ -8,4 +8,4 @@ src/*
 
 !src*/*.c
 !src*/*.s
-!lab*/*.h
+res/circuit/~*.sch
