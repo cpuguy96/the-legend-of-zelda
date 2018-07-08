@@ -3,7 +3,7 @@
 A fan-made version of the NES classic The Legend of Zelda. The game was made as a final project for Introduction to Embedded Systems at the University of Texas at Austin. The game runs on the [EK-TM4C123GXL](http://www.ti.com/tool/EK-TM4C123GXL) (TM4C123) microcontroller using the TM4C123 microprocessor. 
 
 * [Circuit Diagram](https://github.com/cpuguy96/the-legend-of-zelda/tree/master/res/images/circuit/circuit_diagram.png)
-* [Bill of Materials](https://github.com/cpuguy96/the-legend-of-zelda/tree/master/Bill of Materials.xlsx)
+* [Bill of Materials](https://github.com/cpuguy96/the-legend-of-zelda/tree/master/bill_of_materials.xlsx)
 
 ## Installation
 
